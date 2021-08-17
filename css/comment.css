@@ -1,0 +1,24 @@
+.comment-content{
+    color: gray;
+    max-width: 80pw;
+    padding: 10px;
+    margin: 10px;
+    word-break: break-all;
+}
+.pid
+{
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+.p1id
+{
+    font-size: 16px;
+   
+}
+.p2id
+{
+    max-width: 80pw;
+    font-size: 18px;
+  
+}

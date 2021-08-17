@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Navigation{
+    margin: 30px;
+    font-family: var(--font);
+    /*height: 60px;
+   background-color: orange;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.Nav-left{
+    margin: 0px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items:  flex-start;
+}
+.Nav-left span{
+    font-family: var(--font1);
+    font-size: 34px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.Nav-left ul{
+    display: flex;
+}
+.Nav-left ul li{
+    font-weight: bold;
+    font-size: 23px;
+    list-style: none;
+    margin: 10px;
+   
+}
+.Nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav-left ul li a:hover{
+    
+    color:rgb(26, 119, 206);
+    font-weight: bold;
+}
+.Nav-right{
+    margin-right: 10px;
+}
+
+.Content{
+    font-family: var(--font);
+    /*height: 295px;*/
+    /*background-color:rgb(199, 161, 199);*/
+    display: flex;
+    align-items: center;
+}
+.Content-left{
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 50px;
+    z-index: 1;
+}
+.Content-right{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; 
+}
+.Content-right img{
+    width: 250px;
+    height:250px;
+    border: 2px solid;
+    border-radius: 148px;
+}
+.articles{
+    padding: 12px;
+    
+    /*background-color:rgb(209, 201, 201,0.5);*/
+}
+.article{
+    padding:0px 50px;
+    padding-top: 25px;
+    
+    
+    font-family: var(--font1);
+    display: flex;
+
+}
+.article img{
+    height 250px;
+    width: 300px;
+}
+.article-content{
+   align-self: center;
+   padding: 25px;
+}
+.article-content a{
+    text-decoration: none;
+    color: black;
+}
+.article-content a:hover{
+   
+    color:rgb(26, 119, 206);
+}
+
+
+.Footer{
+    padding: 15px;
+    text-align: center;
+    height: 50px;
+    color: white;
+    background-color:rgb(13, 13, 36);
+}
